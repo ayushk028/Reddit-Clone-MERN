@@ -1,0 +1,210 @@
+body {
+    background-color: rgb(200, 210, 230);
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Header */
+header {
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h1 {
+    color: orangered;
+}
+
+#navbar form {
+    width: 50%;
+}
+
+#navbar input {
+    width: 70%;
+    padding: 5px;
+}
+
+#navbar button {
+    padding: 5px;
+    margin: 3px;
+}
+
+#navbar button:hover {
+    cursor: pointer;
+}
+
+.nav-links a {
+    font-weight: 500;
+    color: rgb(0, 110, 255);
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid rgb(0, 110, 255);
+    border-radius: 15px;
+}
+
+.nav-links a:hover {
+    color: white;
+    background-color: rgb(0, 110, 255);
+}
+
+/* Registration & Login */
+.registration-container, .login {
+    margin: auto;
+    margin-top: 5rem;
+    text-align: center;
+    background-color: white;
+    width: 30rem;
+    height: 30rem;
+}
+
+.registration-container form, .login form {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.registration-container input, .registration-container label {
+    display: block;
+    margin: .5rem;
+}
+
+.login input, .login label {
+    display: block;
+    margin: .5rem;
+}
+
+#username-field {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Forum Banners */
+.forum-banner {
+    color: black;
+    background-color: white;
+    padding: 20px;
+    margin: 30px 80px;
+}
+
+.forum-banner:hover {
+    border: 1px solid black;
+}
+
+/* Post Banners */
+.post-banner {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    margin: 30px 30px;
+}
+
+.post-banner:hover {
+    border: 1px solid black;
+}
+
+/* Forum Container */
+.forum {
+    text-align: center;
+}
+
+.forum-title {
+    font-size: 2em;
+}
+
+#new-post-btn {
+    width: 200px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: rgb(0, 110, 255);
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid rgb(0, 110, 255);
+    border-radius: 20px;
+}
+
+#new-post-btn:hover {
+    color: white;
+    background-color: rgb(0, 110, 255);
+    cursor: pointer;
+}
+
+#new-post-form {
+    margin: auto;
+    width: 600px; 
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+#new-post-form button {
+    width: 15rem;
+    justify-self: center;
+    padding: 10px;
+}
+
+#new-post-form input, textarea {
+    margin: 10px;
+    width: 30rem;
+    padding: 12px;
+    resize: vertical;
+}
+
+/* Post Container */
+.post, .comments-container {
+    background-color: white;
+    width: 85%;
+    margin: auto;
+    margin-top: 30px;
+    padding: 10px;
+}
+
+#comment-box {
+    font-family: inherit;
+    width: 50%;
+    height: 100px;
+}
+
+#submit-comment-btn {
+    display: block;
+    margin-bottom: 30px;
+}
+
+.comment {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.post-author, .comment-author {
+    font-size: 0.8rem;
+}
+
+/* User Account Page */
+.user-account-page h2, h3 {
+    text-align: center;
+}
+
+#user-data-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+#user-posts, #user-comments {
+    width: 45%;
+}
+
+.user-page-comment, .user-page-post {
+    background-color: white;
+    padding: 10px;
+    margin: 30px 30px;
+}
